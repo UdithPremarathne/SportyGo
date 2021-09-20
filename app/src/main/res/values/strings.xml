@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">SportyGo</string>
+    <string name="title_reviews">Reviews</string>
+    <string name="text_rating">4.2</string>
+    <string name="text_rating_description">based on 23 reviews</string>
+    <string name="text_excellent">Excellent</string>
+    <string name="text_good">Good</string>
+    <string name="text_average">Average</string>
+    <string name="text_below_average">Below Average</string>
+    <string name="text_poor">Poor</string>
+    <string name="text_write_a_review">Write a Review</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_write_review">Write Review</string>
+    <string name="review_user_name">Joan Perkins</string>
+    <string name="text_days_ago">1 days ago</string>
+    <string name="text_review_body">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</string>
+    <string name="text_user_rating">4.0</string>
 </resources>
