@@ -277,12 +277,20 @@
                         android:layout_weight="1"
                         android:orientation="vertical">
 
-                        <ImageView
+<!--                        <ImageView-->
+<!--                            android:id="@+id/imageView3"-->
+<!--                            android:layout_width="60dp"-->
+<!--                            android:layout_height="60dp"-->
+<!--                            android:layout_weight="1"-->
+<!--                            app:srcCompat="@drawable/girl" />-->
+
+                        <de.hdodenhof.circleimageview.CircleImageView
                             android:id="@+id/imageView3"
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
-                            android:layout_weight="1"
-                            app:srcCompat="@drawable/girl" />
+                            android:layout_width="65dp"
+                            android:layout_height="65dp"
+                            android:src="@drawable/girl"
+                             />
+
                     </LinearLayout>
 
                     <LinearLayout
@@ -311,7 +319,6 @@
                                 android:numStars="5"
                                 android:progress="80"
                                 android:theme="@style/RatingBar"
-
                                 />
 
                             <TextView

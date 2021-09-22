@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SportyGo">
-        <activity android:name=".review.ReviewFormActivity"></activity>
+        <activity android:name=".review.ReviewActivity"></activity>
         <activity android:name=".shipping.ShippingActivity" />
         <activity android:name=".profile.ProfileActivity" />
         <activity android:name=".MainActivity" />
@@ -20,7 +20,7 @@
         <activity android:name=".contact.ContactActivity" />
         <activity android:name=".checkout.CheckoutActivity" />
         <activity
-            android:name=".review.ReviewActivity"
+            android:name=".review.ReviewFormActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
