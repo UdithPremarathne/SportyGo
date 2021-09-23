@@ -9,9 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SportyGo">
-        <activity android:name=".review.ReviewActivity"></activity>
+        <activity
+            android:name=".profile.EditProfileActivity"
+            android:label="@string/title_activity_edit_profile"
+            android:theme="@style/Theme.SportyGo.NoActionBar"></activity>
+        <activity android:name=".review.ReviewActivity" />
         <activity android:name=".shipping.ShippingActivity" />
-        <activity android:name=".profile.ProfileActivity" />
+        <activity android:name=".review.ReviewFormActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".product.ProductActivity" />
         <activity android:name=".payment.PaymentActivity" />
@@ -20,7 +24,7 @@
         <activity android:name=".contact.ContactActivity" />
         <activity android:name=".checkout.CheckoutActivity" />
         <activity
-            android:name=".review.ReviewFormActivity"
+            android:name=".profile.ProfileActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

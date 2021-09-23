@@ -26,6 +26,7 @@
         <item name="colorControlNormal">@color/lightGrey</item>
         <item name="colorControlActivated">@color/Excellent</item>
     </style>
+
     <style name="ProgressBarGood" parent="Theme.AppCompat">
         <item name="colorControlNormal">@color/lightGrey</item>
         <item name="colorControlActivated">@color/Good</item>
@@ -35,12 +36,23 @@
         <item name="colorControlNormal">@color/lightGrey</item>
         <item name="colorControlActivated">@color/Average</item>
     </style>
+
     <style name="ProgressBarBelowAvarage" parent="Theme.AppCompat">
         <item name="colorControlNormal">@color/lightGrey</item>
         <item name="colorControlActivated">@color/BelowAverage</item>
     </style>
+
     <style name="ProgressBarPoor" parent="Theme.AppCompat">
         <item name="colorControlNormal">@color/lightGrey</item>
         <item name="colorControlActivated">@color/Poor</item>
     </style>
+
+    <style name="Theme.SportyGo.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.SportyGo.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.SportyGo.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
