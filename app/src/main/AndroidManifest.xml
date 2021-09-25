@@ -10,9 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SportyGo">
         <activity
+            android:name=".BottomNavigationActivity"
+            android:label="@string/title_activity_bottom_anavigationctivity"></activity>
+        <activity android:name=".rewards.GiftActivity" />
+        <activity android:name=".profile.ProfileActivity" />
+        <activity android:name=".rewards.PointActivity" />
+        <activity android:name=".rewards.MyPointsActivity" />
+        <activity android:name=".rewards.RewardsActivity" />
+        <activity
             android:name=".profile.EditProfileActivity"
             android:label="@string/title_activity_edit_profile"
-            android:theme="@style/Theme.SportyGo.NoActionBar"></activity>
+            android:theme="@style/Theme.SportyGo.NoActionBar" />
         <activity android:name=".review.ReviewActivity" />
         <activity android:name=".shipping.ShippingActivity" />
         <activity android:name=".review.ReviewFormActivity" />
@@ -24,7 +32,7 @@
         <activity android:name=".contact.ContactActivity" />
         <activity android:name=".checkout.CheckoutActivity" />
         <activity
-            android:name=".profile.ProfileActivity"
+            android:name=".rewards.FriendsActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

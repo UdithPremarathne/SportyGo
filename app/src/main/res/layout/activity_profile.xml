@@ -5,9 +5,8 @@
     android:id="@+id/linearLayout3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".profile.ProfileActivity">
-
-
+    tools:context=".profile.ProfileActivity"
+    android:background="@drawable/bg2">
 
 
     <ImageView
@@ -25,9 +24,10 @@
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
         android:text="@string/title_profile"
+        android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -46,11 +46,11 @@
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/profile_image"
-            android:layout_width="196dp"
-            android:layout_height="185dp"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
             android:layout_gravity="center"
             android:src="@drawable/girl"
-            app:civ_border_color="#008080"
+            app:civ_border_color="#ceece4"
             app:civ_border_width="4dp" />
 
         <LinearLayout
@@ -91,12 +91,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:clickable="true"
             android:orientation="horizontal"
+            android:padding="12dp"
             android:paddingLeft="16dp"
             android:paddingTop="32dp"
             android:paddingRight="16dp"
-            android:paddingBottom="16dp"
-            android:clickable="true">
+            android:paddingBottom="16dp">
 
             <ImageView
                 android:id="@+id/imageView8"
@@ -126,7 +127,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
-            android:padding="16dp">
+            android:padding="12dp">
 
             <ImageView
                 android:id="@+id/imageView9"
@@ -156,7 +157,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
-            android:padding="16dp">
+            android:padding="12dp">
 
             <ImageView
                 android:id="@+id/imageView10"
@@ -186,7 +187,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
-            android:padding="16dp">
+            android:padding="12dp">
 
             <ImageView
                 android:id="@+id/imageView11"
@@ -216,7 +217,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
-            android:padding="16dp">
+            android:padding="12dp">
 
             <ImageView
                 android:id="@+id/imageView12"
@@ -246,7 +247,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
-            android:padding="16dp">
+            android:padding="12dp">
 
             <ImageView
                 android:id="@+id/imageView18"
@@ -266,6 +267,38 @@
 
             <ImageView
                 android:id="@+id/imageView19"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/righthead" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_rewards"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:padding="12dp">
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/reward" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/title_rewards"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView22"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:layout_weight="1"
