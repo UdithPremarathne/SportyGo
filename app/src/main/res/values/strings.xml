@@ -24,13 +24,12 @@
     <string name="text_submit_review">Submit Review</string>
     <string name="text_click_to_upload">Click here to upload</string>
     <string name="title_profile">Profile</string>
-    <string name="text_username">\@udith_</string>
+    <string name="text_username">#udith_</string>
     <string name="title_edit_profile">Edit Profile</string>
     <string name="title_shipping_address">Shipping Address</string>
     <string name="text_wishlist">WishList</string>
     <string name="title_purchases">Purchases</string>
     <string name="title_notifications">Notifications</string>
-    <string name="title_friends">Friends</string>
     <string name="title_activity_edit_profile">EditProfileActivity</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -47,4 +46,30 @@
     <string name="label_email">Email</string>
     <string name="text_email">joane.fernandes@gmail.com</string>
     <string name="label_gender">Gender</string>
+    <string name="title_rewards">Rewards</string>
+    <string name="text_current_points">CURRENT POINTS</string>
+    <string name="text_value_current_points">3,110</string>
+    <string name="text_lifetime_score">Lifetime score 22,100</string>
+    <string name="title_badges">Badges</string>
+    <string name="title_history">History</string>
+    <string name="title_my_points">My Points</string>
+    <string name="title_buy_points">Buy Points</string>
+    <string name="title_friends">Friends</string>
+    <string name="title_value_item_category">Sports Shoes</string>
+    <string name="text_value_points">+1000</string>
+    <string name="text_value_item_description">Nike Zoom Rival Waffle 5</string>
+    <string name="text_mutual_friends">8 mutual friends</string>
+    <string name="text_gift">GIFT</string>
+    <string name="title_gift">Gift</string>
+    <string name="text_receiver_user">Send To</string>
+    <string name="text_amount">Select Amount</string>
+    <string name="text_value_amount">299.00</string>
+    <string name="text_message">Message</string>
+    <string name="text_send">SEND</string>
+    <string name="title_activity_bottom_anavigationctivity">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_cart">Cart</string>
+    <string name="txt_pants">ADIDAS SPORTSWEAR TRACK PANTS</string>
+    <string name="txt_pants_description">Tapred track pants celebrating the relese of "NO TIME TO DIE".</string>
 </resources>
