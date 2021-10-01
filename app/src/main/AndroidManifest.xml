@@ -18,9 +18,10 @@
         <activity android:name=".login.LoginActivity" />
         <activity android:name=".home.HomeActivity" />
         <activity android:name=".contact.ContactActivity" />
-        <activity android:name=".checkout.CheckoutActivity" />
+        <activity android:name=".review.ReviewActivity" />
+
         <activity
-            android:name=".review.ReviewActivity"
+            android:name=".checkout.CheckoutActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
