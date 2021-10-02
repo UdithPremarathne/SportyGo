@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "662135960600",
+    "project_id": "sportygo-eedff",
+    "storage_bucket": "sportygo-eedff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662135960600:android:d9aa452061dc6e7cb8bf6d",
+        "android_client_info": {
+          "package_name": "com.example.sportygo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662135960600-8lgbprbfa6dkt99ujenortnn5vpmp1ma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhTowQqkj-l1143OJsB600E9uqKMJ6-hI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662135960600-8lgbprbfa6dkt99ujenortnn5vpmp1ma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

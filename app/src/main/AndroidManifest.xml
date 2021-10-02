@@ -9,9 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SportyGo">
-        <activity
-            android:name=".BottomNavigationActivity"
-            android:label="@string/title_activity_bottom_anavigationctivity"></activity>
         <activity android:name=".rewards.GiftActivity" />
         <activity android:name=".profile.ProfileActivity" />
         <activity android:name=".rewards.PointActivity" />
@@ -24,15 +21,14 @@
         <activity android:name=".review.ReviewActivity" />
         <activity android:name=".shipping.ShippingActivity" />
         <activity android:name=".review.ReviewFormActivity" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".rewards.FriendsActivity" />
         <activity android:name=".product.ProductActivity" />
         <activity android:name=".payment.PaymentActivity" />
         <activity android:name=".login.LoginActivity" />
         <activity android:name=".home.HomeActivity" />
         <activity android:name=".contact.ContactActivity" />
         <activity android:name=".checkout.CheckoutActivity" />
-        <activity
-            android:name=".rewards.FriendsActivity"
+        <activity android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
