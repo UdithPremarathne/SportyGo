@@ -10,11 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SportyGo">
         <activity android:name=".review.ReviewFormActivity"></activity>
-        <activity android:name=".shipping.ShippingActivity" />
+        <activity android:name=".payment.PaymentActivity" />
         <activity android:name=".profile.ProfileActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".product.ProductActivity" />
-        <activity android:name=".payment.PaymentActivity" />
+        <activity android:name=".shipping.ShippingActivity" />
         <activity android:name=".login.LoginActivity" />
         <activity android:name=".home.HomeActivity" />
         <activity android:name=".contact.ContactActivity" />
