@@ -14,14 +14,14 @@
         <activity android:name=".profile.ProfileActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".product.ProductActivity" />
-        <activity android:name=".shipping.ShippingActivity" />
+        <activity android:name=".payment.PaymentActivity" />
         <activity android:name=".login.LoginActivity" />
         <activity android:name=".home.HomeActivity" />
         <activity android:name=".contact.ContactActivity" />
         <activity android:name=".review.ReviewActivity" />
 
         <activity
-            android:name=".payment.PaymentActivity"
+            android:name=".shipping.ShippingActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
