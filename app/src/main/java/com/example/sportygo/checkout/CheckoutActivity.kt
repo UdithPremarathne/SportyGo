@@ -1,11 +1,18 @@
 package com.example.sportygo.checkout
 
+import android.R.attr.button
+import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import android.widget.ArrayAdapter
+import android.widget.Button
 import android.widget.Spinner
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.sportygo.R
+import com.example.sportygo.contact.ContactActivity
+import com.example.sportygo.home.HomeActivity
+import com.example.sportygo.payment.PaymentActivity
+
 
 class CheckoutActivity : AppCompatActivity() {
 
@@ -38,5 +45,18 @@ class CheckoutActivity : AppCompatActivity() {
 
     }
 
+    fun backToHome(view: View) {
+        val intent = Intent(this@CheckoutActivity, HomeActivity::class.java)
+        startActivity(intent)
+    }
 
+    fun toPayment(view: View) {
+        val intent = Intent(this@CheckoutActivity, PaymentActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun toContactus(view: View) {
+        val intent = Intent(this@CheckoutActivity, ContactActivity::class.java)
+        startActivity(intent)
+    }
 }
