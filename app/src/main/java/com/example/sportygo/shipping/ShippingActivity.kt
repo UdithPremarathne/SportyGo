@@ -17,6 +17,7 @@ class ShippingActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_shipping)
 
+
         //get the spinner from the xml.
         //ALL dropdowns
         val dropdown = findViewById<Spinner>(R.id.spinner4)

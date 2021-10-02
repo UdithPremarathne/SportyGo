@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="20dp"
-        android:text="Shopping Details"
+        android:text="Shipping Details"
         android:textColor="#191717"
         android:textSize="16sp"
         android:textStyle="bold"
