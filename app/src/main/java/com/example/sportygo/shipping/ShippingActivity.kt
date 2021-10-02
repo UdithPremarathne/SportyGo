@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.Spinner
+import android.widget.Toast
 import com.example.sportygo.R
 import com.example.sportygo.contact.ContactActivity
 import com.example.sportygo.home.HomeActivity
@@ -48,6 +49,14 @@ class ShippingActivity : AppCompatActivity() {
     fun toContactus(view: View) {
         val intent = Intent(this@ShippingActivity, ContactActivity::class.java)
         startActivity(intent)
+    }
+
+    fun congrts(view: View) {
+        val intent = Intent(this@ShippingActivity, ShippingActivity::class.java)
+        startActivity(intent)
+
+        Toast.makeText(this@ShippingActivity, "Shipping progress", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this@ShippingActivity, "Thank you for shoppng with us!", Toast.LENGTH_SHORT).show()
     }
 
 }
