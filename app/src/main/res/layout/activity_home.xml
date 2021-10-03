@@ -76,12 +76,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="4 Hours, 12 Lessions"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="65dp"
+                android:text="234 items"
                 android:textColor="#6003082b"
                 android:textSize="14dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="110dp"
-                android:layout_marginTop="65dp"/>
+                android:textStyle="bold" />
 
         </RelativeLayout>
 
@@ -98,16 +98,16 @@
             <ImageView
                 android:layout_width="65dp"
                 android:layout_height="65dp"
-                android:background="@drawable/c2"
+                android:layout_centerVertical="true"
                 android:layout_marginLeft="25dp"
-                android:layout_centerVertical="true"/>
+                android:background="@drawable/soccer" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="105dp"
                 android:layout_marginTop="20dp"
-                android:text="Football Boots"
+                android:text="Soccer"
                 android:textColor="#d703082b"
                 android:textSize="23dp"
                 android:textStyle="bold" />
@@ -115,12 +115,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="4 Hours, 12 Lessions"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="55dp"
+                android:text="45 items"
                 android:textColor="#6003082b"
                 android:textSize="14dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="105dp"
-                android:layout_marginTop="55dp"/>
+                android:textStyle="bold" />
 
         </RelativeLayout>
 
@@ -137,9 +137,9 @@
             <ImageView
                 android:layout_width="65dp"
                 android:layout_height="65dp"
-                android:background="@drawable/c3"
+                android:layout_centerVertical="true"
                 android:layout_marginLeft="25dp"
-                android:layout_centerVertical="true"/>
+                android:background="@drawable/badminton" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -154,12 +154,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="4 Hours, 12 Lessions"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="55dp"
+                android:text="68 items"
                 android:textColor="#6003082b"
                 android:textSize="14dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="105dp"
-                android:layout_marginTop="55dp"/>
+                android:textStyle="bold" />
 
         </RelativeLayout>
 
@@ -176,9 +176,9 @@
             <ImageView
                 android:layout_width="65dp"
                 android:layout_height="65dp"
-                android:background="@drawable/c5"
+                android:layout_centerVertical="true"
                 android:layout_marginLeft="25dp"
-                android:layout_centerVertical="true"/>
+                android:background="@drawable/nike" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -193,12 +193,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="4 Hours, 12 Lessions"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="55dp"
+                android:text="89 items"
                 android:textColor="#6003082b"
                 android:textSize="14dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="105dp"
-                android:layout_marginTop="55dp"/>
+                android:textStyle="bold" />
 
         </RelativeLayout>
 

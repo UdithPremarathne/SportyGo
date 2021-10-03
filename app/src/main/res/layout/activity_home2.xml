@@ -100,10 +100,11 @@
             android:layout_height="wrap_content">
 
             <ImageView
-                android:id="@+id/trendings"
+                android:id="@+id/trendingItems"
                 android:layout_width="175dp"
                 android:layout_height="300dp"
                 android:layout_marginStart="15dp"
+                android:onClick="trendingItems"
                 android:src="@drawable/b3" />
 
             <TextView

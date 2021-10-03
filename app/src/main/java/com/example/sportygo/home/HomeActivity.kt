@@ -18,4 +18,9 @@ class HomeActivity : AppCompatActivity() {
         val intent = Intent(this@HomeActivity, CategoryActivity::class.java)
         startActivity(intent)
     }
+
+    fun trendingItems(view: View){
+        val intent = Intent(this@HomeActivity, TrendingActivity::class.java)
+        startActivity(intent)
+    }
 }

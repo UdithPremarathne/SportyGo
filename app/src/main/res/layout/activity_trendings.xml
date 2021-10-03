@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffeaa4"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/backBtnInTrending"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/arrow_left"
+            android:onClick="backToHome" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="75dp"
+            android:src="@drawable/shirt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="Trendings Items"
+            android:textColor="#df03082b"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/hotdealz1"
+                android:layout_width="175dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="hotDlzClick"
+                android:src="@drawable/b1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:text="Spikes"
+                android:textColor="#d703082b"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="70dp"
+                android:text="10% Discount"
+                android:textColor="#ab03082b"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/trendings1"
+                android:layout_width="175dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/b3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="40dp"
+                android:text="T-Shirts"
+                android:textColor="#d703082b"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="70dp"
+                android:text="5% Discount"
+                android:textColor="#ab03082b"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/hotdealz2"-->
+<!--                android:layout_width="175dp"-->
+<!--                android:layout_height="300dp"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginLeft="5dp"-->
+<!--                android:onClick="hotDlzClick"-->
+<!--                android:src="@drawable/tennis" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="40dp"-->
+<!--                android:layout_marginTop="40dp"-->
+<!--                android:text="Tennis Balls"-->
+<!--                android:textColor="#d703082b"-->
+<!--                android:textSize="25dp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="40dp"-->
+<!--                android:layout_marginTop="70dp"-->
+<!--                android:text="10% Discount"-->
+<!--                android:textColor="#ab03082b"-->
+<!--                android:textSize="14dp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--        </RelativeLayout>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/trendings2"-->
+<!--                android:layout_width="175dp"-->
+<!--                android:layout_height="300dp"-->
+<!--                android:layout_marginStart="15dp"-->
+<!--                android:src="@drawable/googles" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="35dp"-->
+<!--                android:layout_marginTop="40dp"-->
+<!--                android:text="Swimming"-->
+<!--                android:textColor="#d703082b"-->
+<!--                android:textSize="25dp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="35dp"-->
+<!--                android:layout_marginTop="70dp"-->
+<!--                android:text="5% Discount"-->
+<!--                android:textColor="#ab03082b"-->
+<!--                android:textSize="14dp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--        </RelativeLayout>-->
+
+<!--    </LinearLayout>-->
+
+</LinearLayout>
