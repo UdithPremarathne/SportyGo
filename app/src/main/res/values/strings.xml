@@ -16,6 +16,7 @@
     <string name="text_days_ago">1 days ago</string>
     <string name="text_review_body">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</string>
     <string name="text_user_rating">4.0</string>
+    <string name="label_userrname">4.0</string>
     <string name="text_item_name">Bjorg chair White Plastic</string>
     <string name="text_item_description">A product feature is a factual statement about the product that provides technical information.</string>
     <string name="text_add_photo_or_video">Add Photo or Video</string>
@@ -40,7 +41,7 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="label_userrname">Username</string>
+    <string name="label_username">Username</string>
     <string name="label_phone">Phone</string>
     <string name="text_phone">(256)-578-8352</string>
     <string name="text_save">SAVE</string>
