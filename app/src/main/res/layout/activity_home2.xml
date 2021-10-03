@@ -185,12 +185,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="4 Hours, 20 Minutes"
-            android:textSize="14dp"
-            android:textStyle="bold"
-            android:textColor="#6003082b"
             android:layout_marginLeft="105dp"
-            android:layout_marginTop="50dp"/>
+            android:layout_marginTop="50dp"
+            android:text="378 items"
+            android:textColor="#6003082b"
+            android:textSize="14dp"
+            android:textStyle="bold" />
 
     </RelativeLayout>
 
@@ -226,7 +226,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="4 Hours, 20 Minutes"
+            android:text="143 items"
             android:textSize="14dp"
             android:textStyle="bold"
             android:textColor="#6003082b"
@@ -267,7 +267,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="4 Hours, 20 Minutes"
+            android:text="78 items"
             android:textSize="14dp"
             android:textStyle="bold"
             android:textColor="#6003082b"
@@ -308,7 +308,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="4 Hours, 20 Minutes"
+            android:text="234 items"
             android:textSize="14dp"
             android:textStyle="bold"
             android:textColor="#6003082b"
