@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".rewards.FriendsActivity">
+    tools:context=".profile.BuyPointsActivity">
 
     <ImageView
         android:id="@+id/imageView6"
@@ -177,7 +177,7 @@
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
                                         android:paddingLeft="16dp"
-                                        android:src="@drawable/hulk" />
+                                        android:src="@drawable/stargrey" />
                                 </LinearLayout>
 
                                 <LinearLayout
@@ -192,7 +192,7 @@
                                         android:id="@+id/textView21"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="@string/txt_thilina"
+                                        android:text="@string/title_rewards_buy_points"
                                         android:textSize="24sp"
                                         android:textStyle="bold" />
 
@@ -200,7 +200,7 @@
                                         android:id="@+id/textView22"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="@string/txt_thilina_UN"
+                                        android:text="@string/title_dollers"
                                         android:textSize="12sp" />
 
                                 </LinearLayout>
@@ -216,16 +216,104 @@
                                         android:id="@+id/chip_gift"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:text="@string/text_gift"
-                                        android:textColor="@color/black"
+                                        android:clickable="true"
+                                        android:text="@string/title_buy"
+                                        android:textColor="@color/white"
                                         android:textSize="16sp"
                                         android:textStyle="bold"
-                                        app:chipBackgroundColor="@color/duskYellow"
-                                        app:chipIcon="@drawable/gift"
+                                        app:chipBackgroundColor="@color/Excellent"
+                                        app:chipIcon="@drawable/reward"
                                         app:chipIconSize="14dp"
-                                        app:iconStartPadding="8dp"
+                                        app:iconStartPadding="8dp" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="409dp"
+                            android:layout_height="100dp"
+                            android:background="@color/lightGrey"
+                            app:cardBackgroundColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.5"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="center_vertical"
+                                    android:orientation="vertical"
+                                    android:paddingLeft="8dp">
+
+                                    <de.hdodenhof.circleimageview.CircleImageView
+                                        android:id="@+id/imageView3_1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:paddingLeft="16dp"
+                                        android:src="@drawable/star" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="550dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:orientation="vertical"
+                                    android:paddingLeft="16dp">
+
+                                    <TextView
+                                        android:id="@+id/textView21_1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/title_reward_buy_points2"
+                                        android:textSize="24sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/textView22_1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/Title_dollers2"
+                                        android:textSize="12sp" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:orientation="vertical"
+                                    android:paddingRight="16dp">
+
+                                    <com.google.android.material.chip.Chip
+                                        android:id="@+id/chip_gift_1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
                                         android:clickable="true"
-                                        />
+                                        android:text="@string/title_buy"
+                                        android:textColor="@color/white"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold"
+                                        app:chipBackgroundColor="@color/Excellent"
+                                        app:chipIcon="@drawable/reward"
+                                        app:chipIconSize="14dp"
+                                        app:iconStartPadding="8dp" />
                                 </LinearLayout>
 
                             </LinearLayout>

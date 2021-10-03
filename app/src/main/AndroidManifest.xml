@@ -9,16 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SportyGo">
+        <activity android:name=".profile.BuyPointsActivity"></activity>
+        <activity android:name=".review.ReviewedActivity" />
+        <activity android:name=".profile.PurchasesActivity" />
+        <activity android:name=".cart.CartActivity" />
+        <activity android:name=".shared.LayoutActivity" />
         <activity android:name=".rewards.GiftActivity" />
-        <activity android:name=".profile.ProfileActivity" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".rewards.PointActivity" />
         <activity android:name=".rewards.MyPointsActivity" />
-        <activity android:name=".rewards.RewardsActivity" />
+        <activity android:name=".review.ReviewActivity" />
         <activity
             android:name=".profile.EditProfileActivity"
             android:label="@string/title_activity_edit_profile"
             android:theme="@style/Theme.SportyGo.NoActionBar" />
-        <activity android:name=".review.ReviewActivity" />
+        <activity android:name=".rewards.RewardsActivity" />
         <activity android:name=".shipping.ShippingActivity" />
         <activity android:name=".review.ReviewFormActivity" />
         <activity android:name=".rewards.FriendsActivity" />
@@ -28,7 +33,8 @@
         <activity android:name=".home.HomeActivity" />
         <activity android:name=".contact.ContactActivity" />
         <activity android:name=".checkout.CheckoutActivity" />
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".profile.ProfileActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
