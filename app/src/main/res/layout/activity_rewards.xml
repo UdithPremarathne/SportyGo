@@ -103,30 +103,30 @@
             android:layout_height="match_parent"
             android:orientation="horizontal">
 
-            <com.google.android.material.tabs.TabLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingTop="16dp"
-                app:tabGravity="start"
-                app:tabIndicatorColor="@color/Excellent"
-                app:tabRippleColor="@color/lightGrey"
-                app:tabTextColor="@color/Excellent">
+            <Button
+                android:id="@+id/btn_my_points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/title_my_points"
+                app:backgroundTint="@color/Excellent" />
 
-                <com.google.android.material.tabs.TabItem
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/title_my_points" />
+            <Button
+                android:id="@+id/btn_buy_points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/title_buy_points"
+                app:backgroundTint="@color/Excellent" />
 
-                <com.google.android.material.tabs.TabItem
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/title_buy_points" />
+            <Button
+                android:id="@+id/btn_friends"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/title_friends"
+                app:backgroundTint="@color/Excellent" />
 
-                <com.google.android.material.tabs.TabItem
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/title_friends" />
-            </com.google.android.material.tabs.TabLayout>
         </LinearLayout>
 
         <LinearLayout
@@ -259,7 +259,7 @@
                                         android:layout_height="90dp"
                                         android:minWidth="80dp"
                                         android:minHeight="45dp"
-                                        app:srcCompat="@drawable/shoe" />
+                                        app:srcCompat="@drawable/shoe2" />
                                 </LinearLayout>
 
                                 <LinearLayout
@@ -339,7 +339,7 @@
                                         android:layout_height="90dp"
                                         android:minWidth="80dp"
                                         android:minHeight="45dp"
-                                        app:srcCompat="@drawable/shoe" />
+                                        app:srcCompat="@drawable/shoe3" />
                                 </LinearLayout>
 
                                 <LinearLayout
@@ -419,7 +419,7 @@
                                         android:layout_height="90dp"
                                         android:minWidth="80dp"
                                         android:minHeight="45dp"
-                                        app:srcCompat="@drawable/shoe" />
+                                        app:srcCompat="@drawable/dumbbell" />
                                 </LinearLayout>
 
                                 <LinearLayout
@@ -433,7 +433,7 @@
                                         android:id="@+id/textView33"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="@string/title_value_item_category"
+                                        android:text="@string/txt_Dumbbell2"
                                         android:textSize="24sp"
                                         android:textStyle="bold" />
 
@@ -441,7 +441,7 @@
                                         android:id="@+id/textView42"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="@string/text_value_item_description"
+                                        android:text="@string/txt_dumbbell_desc"
                                         android:textSize="12sp" />
 
                                     <com.google.android.material.chip.Chip
@@ -499,7 +499,7 @@
                                         android:layout_height="90dp"
                                         android:minWidth="80dp"
                                         android:minHeight="45dp"
-                                        app:srcCompat="@drawable/shoe" />
+                                        app:srcCompat="@drawable/pants" />
                                 </LinearLayout>
 
                                 <LinearLayout
@@ -513,7 +513,7 @@
                                         android:id="@+id/textView34"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="@string/title_value_item_category"
+                                        android:text="@string/txt_black_pants"
                                         android:textSize="24sp"
                                         android:textStyle="bold" />
 
@@ -521,7 +521,7 @@
                                         android:id="@+id/textView43"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="@string/text_value_item_description"
+                                        android:text="@string/txt_pants_des"
                                         android:textSize="12sp" />
 
                                     <com.google.android.material.chip.Chip
@@ -579,7 +579,7 @@
                                         android:layout_height="90dp"
                                         android:minWidth="80dp"
                                         android:minHeight="45dp"
-                                        app:srcCompat="@drawable/shoe" />
+                                        app:srcCompat="@drawable/hoodie" />
                                 </LinearLayout>
 
                                 <LinearLayout
@@ -593,7 +593,7 @@
                                         android:id="@+id/textView35"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="@string/title_value_item_category"
+                                        android:text="@string/txt_hoodie"
                                         android:textSize="24sp"
                                         android:textStyle="bold" />
 
@@ -601,7 +601,7 @@
                                         android:id="@+id/textView44"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="@string/text_value_item_description"
+                                        android:text="@string/txt_hoodie_desc"
                                         android:textSize="12sp" />
 
                                     <com.google.android.material.chip.Chip
@@ -659,7 +659,7 @@
                                         android:layout_height="90dp"
                                         android:minWidth="80dp"
                                         android:minHeight="45dp"
-                                        app:srcCompat="@drawable/shoe" />
+                                        app:srcCompat="@drawable/bottle" />
                                 </LinearLayout>
 
                                 <LinearLayout
@@ -673,7 +673,7 @@
                                         android:id="@+id/textView36"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="@string/title_value_item_category"
+                                        android:text="@string/txt_shaker"
                                         android:textSize="24sp"
                                         android:textStyle="bold" />
 
@@ -681,7 +681,7 @@
                                         android:id="@+id/textView30"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="@string/text_value_item_description"
+                                        android:text="@string/txt_shaker_des"
                                         android:textSize="12sp" />
 
                                     <com.google.android.material.chip.Chip
@@ -783,85 +783,6 @@
                         </androidx.cardview.widget.CardView>
                     </LinearLayout>
 
-                    <LinearLayout
-                        android:id="@+id/linear_scroll_point_7"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="409dp"
-                            android:layout_height="100dp"
-                            android:background="@color/lightGrey"
-                            app:cardBackgroundColor="@color/white"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintHorizontal_bias="0.5"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:orientation="horizontal">
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:layout_weight="1"
-                                    android:gravity="center_vertical"
-                                    android:orientation="vertical"
-                                    android:paddingLeft="8dp">
-
-                                    <ImageView
-                                        android:id="@+id/imageView7"
-                                        android:layout_width="160dp"
-                                        android:layout_height="90dp"
-                                        android:minWidth="80dp"
-                                        android:minHeight="45dp"
-                                        app:srcCompat="@drawable/shoe" />
-                                </LinearLayout>
-
-                                <LinearLayout
-                                    android:layout_width="470dp"
-                                    android:layout_height="match_parent"
-                                    android:layout_weight="1"
-                                    android:orientation="vertical"
-                                    android:paddingLeft="8dp">
-
-                                    <TextView
-                                        android:id="@+id/textView38"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="wrap_content"
-                                        android:text="@string/title_value_item_category"
-                                        android:textSize="24sp"
-                                        android:textStyle="bold" />
-
-                                    <TextView
-                                        android:id="@+id/textView39"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="wrap_content"
-                                        android:text="@string/text_value_item_description"
-                                        android:textSize="12sp" />
-
-                                    <com.google.android.material.chip.Chip
-                                        android:id="@+id/chip5"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:text="@string/text_value_points"
-                                        android:textColor="@color/white"
-                                        android:textSize="16sp"
-                                        android:textStyle="bold"
-                                        app:chipBackgroundColor="@color/Excellent"
-                                        app:chipIcon="@drawable/star"
-                                        app:chipIconSize="16dp"
-                                        app:iconStartPadding="8dp" />
-                                </LinearLayout>
-
-                            </LinearLayout>
-
-                        </androidx.cardview.widget.CardView>
-                    </LinearLayout>
                 </LinearLayout>
             </ScrollView>
 

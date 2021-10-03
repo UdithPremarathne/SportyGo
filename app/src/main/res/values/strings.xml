@@ -72,4 +72,22 @@
     <string name="title_cart">Cart</string>
     <string name="txt_pants">ADIDAS SPORTSWEAR TRACK PANTS</string>
     <string name="txt_pants_description">Tapred track pants celebrating the relese of "NO TIME TO DIE".</string>
+    <string name="txt_dumbbell">Deluxe Rubber Dumbbells</string>
+    <string name="txt_Dumbbell2">Pro Dumbbell</string>
+    <string name="txt_dumbbell_desc">50lb rubber coated</string>
+    <string name="txt_black_pants">Track Pants</string>
+    <string name="txt_pants_des">Addidas Black size L</string>
+    <string name="txt_hoodie">Hoodie</string>
+    <string name="txt_hoodie_desc">PUMA Modern Sports Hoodie L</string>
+    <string name="txt_shaker">Shaker Bottle</string>
+    <string name="txt_shaker_des">500ml</string>
+    <string name="txt_udith">Udith Eranga</string>
+    <string name="txt_thilina">Thiina Niranjan</string>
+    <string name="txt_thilina_UN">\@thilina</string>
+    <string name="title_rewards_buy_points">10 000 RP</string>
+    <string name="title_dollers">15$</string>
+    <string name="title_buy">BUY</string>
+    <string name="title_reward_buy_points2">20 000 RP</string>
+    <string name="Title_dollers2">25$</string>
+
 </resources>
